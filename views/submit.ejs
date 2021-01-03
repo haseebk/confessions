@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="jumbotron centered min-vh-100 bg-white d-flex flex-column justify-content-center">
+    <i class="fas fa-user-secret fa-6x"></i>
+    <h1 class="display-3">Confessions</h1>
+    <p class="lead">Clear your head and anonymously vent those confessions you've been holding in!</p>
+    <hr />
+
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control text-center"
+          name="confession"
+          autocomplete="off"
+          placeholder="What would you like to share?"
+        />
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
