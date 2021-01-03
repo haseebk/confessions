@@ -24,7 +24,11 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haseebk/confessions.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Haseeb Khan",
   "license": "ISC"
 }
